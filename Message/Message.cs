@@ -13,6 +13,7 @@ namespace MessageNamespace
         public string Value { get; set; }
         public string Result { get; set; }
         public ActionType Action { get; set; }
+        public Dictionary<string, string> Dictionary { get; set; }
     }
 
     [Serializable]
