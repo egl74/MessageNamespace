@@ -19,7 +19,7 @@ namespace MessageNamespace
     [Serializable]
     public enum ActionType
     {
-        SearchByWord, SearchByLetter, Add, Edit, Remove
+        SearchByWord, SearchByLetter, Add, Edit, Remove, GetAllDictionary
     }
 
     
